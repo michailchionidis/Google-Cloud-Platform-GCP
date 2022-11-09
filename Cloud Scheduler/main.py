@@ -25,7 +25,7 @@ def set_cloud_scheduler(arguments):
     print(arguments)
     print(client_name)
     topic_name = 'test' # Set the name of the Pub/Sub topic
-    gcp_project_id = 'pfx-social-hero' # Set your gcp project id
+    gcp_project_id = 'my-gcp-project-id' # Set your gcp project id
 
     try:
        client = scheduler.CloudSchedulerClient()
